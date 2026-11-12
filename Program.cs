@@ -84,10 +84,10 @@ using ExercicioHerancaCSharp.Ex9;
 // celular.Salvar("Mensagem");
 
 //! Ex10
-IContratavel Nicolas = new Consultoria("Ativista");
-IContratavel Alisson = new Hospedagem("Recepcionista");
-Nicolas.Contratar();
-Alisson.Contratar();
+// IContratavel Nicolas = new Consultoria("Ativista");
+// IContratavel Alisson = new Hospedagem("Recepcionista");
+// Nicolas.Contratar();
+// Alisson.Contratar();
 
-ICancelavel Davi = new Hospedagem("Recepcionista");
-Davi.Cancelar();
+// ICancelavel Davi = new Hospedagem("Recepcionista");
+// Davi.Cancelar();
