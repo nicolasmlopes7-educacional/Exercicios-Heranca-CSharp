@@ -13,7 +13,7 @@ namespace ExercicioHerancaCSharp.Ex7
 
         public virtual void ExibirInformacoes()
         {
-          Console.WriteLine($"O equipamento: {Modelo}, o número de série é: {NumeroSerie}.");  
+          Console.Write($"O equipamento: {Modelo}, o número de série é: {NumeroSerie}.");  
         }
     }
 }

@@ -1,9 +1,11 @@
 ﻿using ExercicioHerancaCSharp;
+using ExercicioHerancaCSharp.Ex10;
 using ExercicioHerancaCSharp.Ex4;
 using ExercicioHerancaCSharp.Ex5;
 using ExercicioHerancaCSharp.Ex6;
 using ExercicioHerancaCSharp.Ex7;
 using ExercicioHerancaCSharp.Ex8;
+using ExercicioHerancaCSharp.Ex9;
 
 //! Ex1
 // Veiculo c1 = new Carro("Civic", "Honda", 4);
@@ -74,3 +76,18 @@ using ExercicioHerancaCSharp.Ex8;
 // }
 
 //! Ex9
+// IArmazenavel notebook = new BancoDados();
+// notebook.Ler();
+// notebook.Salvar("App");
+// IArmazenavel celular = new ArquivoTexto();
+// celular.Ler();
+// celular.Salvar("Mensagem");
+
+//! Ex10
+IContratavel Nicolas = new Consultoria("Ativista");
+IContratavel Alisson = new Hospedagem("Recepcionista");
+Nicolas.Contratar();
+Alisson.Contratar();
+
+ICancelavel Davi = new Hospedagem("Recepcionista");
+Davi.Cancelar();

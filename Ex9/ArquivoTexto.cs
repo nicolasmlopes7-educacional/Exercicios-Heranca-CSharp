@@ -2,12 +2,12 @@ namespace ExercicioHerancaCSharp.Ex9
 {
     public class ArquivoTexto : IArmazenavel
     {
-        public override void Salvar(string conteudo)
+        public void Salvar(string conteudo)
         {
-            Console.WriteLine("Salvando conteúdo no arquivo de texto.");
+            Console.WriteLine($"Salvando {conteudo} no arquivo de texto.");
         }
 
-        public override void Ler()
+        public void Ler()
         {
             Console.WriteLine("Lendo conteúdo do arquivo de texto.");
         }

@@ -10,7 +10,8 @@ namespace ExercicioHerancaCSharp.Ex7
         }
         public override void ExibirInformacoes()
         {
-            Console.WriteLine($"O smartphone: {Modelo}, o número de série é: {NumeroSerie} e possue {Armazenamento}GB de armazenamento.");
+            base.ExibirInformacoes();
+            Console.WriteLine($" E possue {Armazenamento}GB de armazenamento.");
         }
     }
 }
