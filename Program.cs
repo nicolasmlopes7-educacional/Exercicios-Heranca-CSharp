@@ -3,6 +3,7 @@ using ExercicioHerancaCSharp.Ex4;
 using ExercicioHerancaCSharp.Ex5;
 using ExercicioHerancaCSharp.Ex6;
 using ExercicioHerancaCSharp.Ex7;
+using ExercicioHerancaCSharp.Ex8;
 
 //! Ex1
 // Veiculo c1 = new Carro("Civic", "Honda", 4);
@@ -63,3 +64,13 @@ using ExercicioHerancaCSharp.Ex7;
 // e3.ExibirInformacoes();
 
 //! Ex8
+// foreach (var animal in new List<Animal>
+// { new Passaro("PicaPau", "PiuPiu"),
+// new Cachorro("Caramelo", "AuAu"),
+// new Gato("Persa", "Miuauu") })
+// {
+// animal.Apresentar();
+// animal.EmitirSom();
+// }
+
+//! Ex9
